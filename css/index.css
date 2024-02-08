@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(25, 32, 36);
+    color: white;
+    font-family: 'Neucha', cursive;
+    text-align: center;
+}
+
+main {
+    margin: 25px auto;
+}
+
+h1 {
+    font-size: 55px;
+}
+
+h3 {
+    font-size: 45px;
+    margin-top: 35px;
+}
+
+div#calculator {
+    margin: 25px auto;
+}
+
+button {
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+    transition: transform 0.2s ease;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+button:active {
+    transform: scale(0.9);
+}
+
+button.sm-button {
+    font-size: 45px;
+    height: 80px;
+    width: 80px;
+    padding: 5px;
+    margin: 15px;
+}
+
+button.med-button {
+    font-size: 45px;
+    height: 100px;
+    width: 200px;
+    padding: 5px;
+    margin: 15px;
+}
+
+button.lg-button {
+    font-size: 45px;
+    height: 100px;
+    width: 300px;
+    padding: 5px;
+    margin: 15px;
+}
