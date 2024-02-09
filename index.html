@@ -16,38 +16,40 @@
     <main>
         <header>
             <h1>Press My Buttons!</h1>
+            <!-- make it blinking underscore -->
+            <h4 id="blinking-cursor"><span id="input-text"></span><span id="cursor">_</span></h4>
+            <h3 id="results">0</h3>
         </header>
         <section>
-            <!-- make it blinking underscore -->
-            <h3 id="input-text">_</h3> 
+
             <div id="calculator">
                 <div>
                     <button class="med-button" value="clear">AC</button>
-                    <button class="med-button" value="backspace">&larr;</button>
+                    <button class="med-button operation" value="backspace">&larr;</button>
                 </div>
                 <div>
-                    <button id="one" class="sm-button" value="1">1</button>
-                    <button id="two" class="sm-button" value="2">2</button>
-                    <button class="sm-button" value="3">3</button>
-                    <button class="sm-button" value="4">4</button>
-                    <button class="sm-button" value5>5</button>
-                    <button class="sm-button" value="6">6</button>
-                    <button class="sm-button" value="7">7</button>
-                    <button class="sm-button" value="8">8</button>
-                    <button class="sm-button" value="9">9</button>
-                    <button class="sm-button" value="0">0</button>
+                    <button class="sm-button number" value="1">1</button>
+                    <button class="sm-button number" value="2">2</button>
+                    <button class="sm-button number" value="3">3</button>
+                    <button class="sm-button number" value="4">4</button>
+                    <button class="sm-button number" value="5">5</button>
+                    <button class="sm-button number" value="6">6</button>
+                    <button class="sm-button number" value="7">7</button>
+                    <button class="sm-button number" value="8">8</button>
+                    <button class="sm-button number" value="9">9</button>
+                    <button class="sm-button number" value="0">0</button>
                 </div>
 
                 <div>
-                    <button class="med-button" value="plus">+</button>
-                    <button class="med-button" value="minus">&minus;</button>
-                    <button class="med-button" value="multiply">x</button>
-                    <button class="med-button" value="percent">%</button>
-                    <button class="med-button" value="dot">.</button>
+                    <button class="med-button operation" value="+">+</button>
+                    <button class="med-button operation" value="minus">&minus;</button>
+                    <button class="med-button operation" value="x">x</button>
+                    <button class="med-button operation" value="divide">/</button>
+                    <button class="med-button number" value=".">.</button>
                 </div>
-                    
+
                 <div>
-                    <button class="lg-button" value="calculate">=</button>
+                    <button class="lg-button operation" value="=">=</button>
                 </div>
 
             </div>

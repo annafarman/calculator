@@ -12,12 +12,22 @@ main {
 }
 
 h1 {
-    font-size: 55px;
+    font-size: 50px;
 }
 
 h3 {
     font-size: 45px;
     margin-top: 35px;
+}
+
+h4 {
+    margin: 15px 0;
+    letter-spacing: 3px;
+}
+
+span#input-text {
+    font-size: 24px;
+    color: rgb(119, 119, 253);
 }
 
 div#calculator {
@@ -61,4 +71,33 @@ button.lg-button {
     width: 300px;
     padding: 5px;
     margin: 15px;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    90% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+#blinking-cursor #cursor {
+    display: inline-block;
+    width: 8px;
+    color: rgb(119, 119, 253);
+    animation: blink 1.5s infinite;
 }
